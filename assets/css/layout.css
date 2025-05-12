@@ -89,7 +89,6 @@ section {
 
 /* Media Queries */
 @media screen and (max-width: 1024px) {
-
   /* Hero */
   .hero-img-2 {
     visibility: hidden;
@@ -144,19 +143,24 @@ section {
     padding-left: 30px;
   }
 
+  /* Footer */
+  footer {
+    padding: 30px;
+  }
+
   /* Font Size */
   h1 {
     font-size: 1.8rem;
-    line-height: 2.2rem;
+    line-height: 2rem;
   }
 
   h2 {
     font-size: 1.8rem;
-    line-height: 2.2rem;
+    line-height: 2rem;
   }
 
   h3 {
     font-size: 1.5rem;
-    line-height: 2rem;
+    line-height: 1.8rem;
   }
 }

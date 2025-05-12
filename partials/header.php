@@ -16,5 +16,5 @@
         <a href="./index.php">
             <img src="./assets/logo-orange.svg" alt="Logo de L'Atelier du Bois">
         </a>
-        <a class="btn btn-primary" href="">Contact</a>
+        <a class="btn btn-primary" href="./contact.php">Contact</a>
     </header>
