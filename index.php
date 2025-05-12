@@ -7,7 +7,7 @@
             <h1 class="text-center">
                 Le bois sur mesure, au service de vos espaces uniques.
             </h1>
-            <a class="btn btn-primary">Contact</a>
+            <a class="btn btn-primary" href="./contact.php">Contact</a>
         </div>
         <img class="hero-img-1" src="./assets/img/image-hero-1.jpg" alt="image menuiserie">
         <img class="hero-img-2" src="./assets/img/image-hero-2.jpg" alt="image menuiserie">
@@ -22,7 +22,7 @@
             notre fabrication et nos produits, nous essayons de laisser une
             empreinte la plus petite possible.
         </h2>
-        <div class="projects-section flex">
+        <div class="projects-section flex justify-between">
             <h3>Projets</h3>
             <div class="projects-list flex flex-column">
                 <a class="project-card">
