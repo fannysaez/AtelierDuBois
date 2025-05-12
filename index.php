@@ -29,7 +29,7 @@
                     Installateur
                 </a>
                 <a class="project-card">
-                    Bilan: Journée portes ouvertes 2024
+                    Bilan : Journée portes ouvertes 2024
                 </a>
                 <a class="project-card">
                     Prochain après-midi de projet le 28 juin
