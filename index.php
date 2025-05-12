@@ -14,6 +14,30 @@
         <img class="hero-img-3" src="./assets/img/image-hero-3.jpg" alt="image menuiserie">
     </section>
 
+    <section class="atelier-presentation flex flex-column">
+        <h2>
+            Passionnés par la beauté, nous créons dans notre Atelier de Bois
+            des créations nouvelles, modernes et individuelles qui, avec leur
+            longue durée de vie, constituent la base de nos produits. Avec
+            notre fabrication et nos produits, nous essayons de laisser une
+            empreinte la plus petite possible.
+        </h2>
+        <div class="projects-section flex">
+            <h3>Projets</h3>
+            <div class="projects-list flex flex-column">
+                <a class="project-card">
+                    Installateur
+                </a>
+                <a class="project-card">
+                    Bilan: Journée portes ouvertes 2024
+                </a>
+                <a class="project-card">
+                    Prochain après-midi de projet le 28 juin
+                </a>
+            </div>
+        </div>
+    </section>
+
 </main>
 
 
