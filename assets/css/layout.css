@@ -3,10 +3,6 @@
   margin: 0;
   padding: 0;
 
-  font-family: var(--font-bdo);
-  font-size: var(--font-size-p);
-  color: var(--color-dark);
-
   transition: all 0.3s;
 }
 
@@ -16,15 +12,21 @@ html {
 
 body {
   min-height: 100vh;
+
+  font-family: var(--font-bdo);
+  font-size: var(--font-size-p);
+  color: var(--color-dark);
   background-color: var(--color-white);
 }
 
 main {
+  z-index: 5;
+  position: relative;
   overflow: hidden;
   width: 100%;
   max-width: 1920px;
   background-color: var(--color-white);
-  border-radius: 50px;
+  border-radius: 0 0 50px 50px;
 
   padding: 100px 100px 0 100px;
 }
@@ -64,15 +66,33 @@ section {
   border: solid 30px var(--color-white);
 }
 
+/* Présentation Atelier */
+.atelier-presentation {
+  padding: 200px 0 200px 0;
+  gap: 100px;
+}
+
+.projects-section {
+  justify-content: space-between;
+}
+
+.projects-list {
+  width: 100%;
+  max-width: 600px;
+}
+
+.project-card {
+  width: 100%;
+  padding: 20px 0 20px 0;
+  border-bottom: solid 1px var(--color-dark);
+}
+
+.project-card:hover {
+  transform: scale(1.04);
+}
 
 /* Media Queries */
-@media screen and (max-width: 1024px) {}
-
-@media screen and (max-width: 768px) {
-  main {
-    padding-right: 30px;
-    padding-left: 30px;
-  }
+@media screen and (max-width: 1024px) {
 
   /* Hero */
   .hero-img-2 {
@@ -81,6 +101,13 @@ section {
 
   .hero-img-3 {
     visibility: hidden;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  main {
+    padding-right: 30px;
+    padding-left: 30px;
   }
 }
 
