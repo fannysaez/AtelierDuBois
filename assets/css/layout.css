@@ -72,10 +72,6 @@ section {
   gap: 100px;
 }
 
-.projects-section {
-  justify-content: space-between;
-}
-
 .projects-list {
   width: 100%;
   max-width: 600px;
@@ -102,6 +98,21 @@ section {
   .hero-img-3 {
     visibility: hidden;
   }
+
+  /* Présentation Atelier */
+  .atelier-presentation {
+    padding: 50px 0 200px 0;
+    gap: 100px;
+  }
+
+  /* Projects */
+  .projects-section {
+    flex-direction: column;
+  }
+
+  .projects-list {
+    max-width: 100%;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -109,11 +120,43 @@ section {
     padding-right: 30px;
     padding-left: 30px;
   }
+
+  /* Font Size */
+  h1 {
+    font-size: 2.3rem;
+    line-height: 2.5rem;
+  }
+
+  h2 {
+    font-size: 2.3rem;
+    line-height: 2.5rem;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+    line-height: 1.6rem;
+  }
 }
 
 @media screen and (max-width: 425px) {
   main {
     padding-right: 30px;
     padding-left: 30px;
+  }
+
+  /* Font Size */
+  h1 {
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+  }
+
+  h2 {
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+    line-height: 2rem;
   }
 }
