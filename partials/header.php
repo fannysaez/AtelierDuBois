@@ -13,6 +13,8 @@
 <body class="flex flex-column items-center">
 
     <header class="flex justify-between p-15">
-        <img src="./assets/logo-orange.svg" alt="Logo de L'Atelier du Bois">
+        <a href="./index.php">
+            <img src="./assets/logo-orange.svg" alt="Logo de L'Atelier du Bois">
+        </a>
         <a class="btn btn-primary" href="">Contact</a>
     </header>
