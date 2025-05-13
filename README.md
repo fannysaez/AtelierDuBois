@@ -99,7 +99,7 @@ Pour tester le formulaire de contact:
 Ce projet a été réalisé en 2 jours conformément au cahier des charges.
 
 ## Auteurs
-Développé par Antonin et Fanny
+Développé par [**@Antonin**](https://github.com/HeyAnto) et [**@Fanny**](https://github.com/fannysaez)
 
 ## Licence
 Ce projet est sous licence MIT. Voir le fichier LICENSE pour plus d'informations.
