@@ -20,6 +20,7 @@ body {
 }
 
 main {
+  flex: 1;
   z-index: 5;
   position: relative;
   overflow: hidden;
@@ -87,8 +88,15 @@ section {
   transform: scale(1.04);
 }
 
+/* Contact */
+.contact {
+  padding: 100px 0 100px 0;
+  gap: 100px;
+}
+
 /* Media Queries */
 @media screen and (max-width: 1024px) {
+
   /* Hero */
   .hero-img-2 {
     visibility: hidden;
