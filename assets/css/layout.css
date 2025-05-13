@@ -90,13 +90,17 @@ section {
 
 /* Contact */
 .contact {
-  padding: 100px 0 100px 0;
+  padding: 100px 0 0 0;
+  gap: 50px;
+}
+
+.contact-presentation {
+  padding: 100px 0 200px 0;
   gap: 100px;
 }
 
 /* Media Queries */
 @media screen and (max-width: 1024px) {
-
   /* Hero */
   .hero-img-2 {
     visibility: hidden;
