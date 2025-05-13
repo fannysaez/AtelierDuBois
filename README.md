@@ -1,6 +1,8 @@
 # L'Atelier du Bois - Site Vitrine
 
-![Logo L'Atelier du Bois](./assets/logo-orange.svgassets/logo-orange.svg)
+<p align="center">
+  <img src="./assets/logo-orange.svg" width="150" height="150" alt="Logo">
+</p>
 
 ## Présentation du projet
 
