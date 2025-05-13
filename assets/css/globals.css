@@ -95,6 +95,10 @@ strong {
 }
 
 button {
+    font-family: var(--font-bdo);
+    font-size: var(--font-size-p);
+    font-weight: var(--font-weight-regular);
+    line-height: var(--line-height-p);
     background: none;
     border: none;
 }
