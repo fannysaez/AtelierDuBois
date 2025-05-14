@@ -8,6 +8,8 @@
 
 "L'Atelier du Bois" est un site vitrine développé dans le cadre d'une situation professionnelle pour une entreprise artisanale spécialisée dans la menuiserie sur mesure : meubles, escaliers, placards et agencements intérieurs. Le projet répond à un cahier des charges précis et se compose d'une page d'accueil responsive et d'un formulaire de contact fonctionnel avec validation front-end et sécurisation des données.
 
+--- 
+
 ## Objectifs du projet
 
 - Créer une présence en ligne simple et efficace pour valoriser le savoir-faire artisanal
@@ -15,6 +17,9 @@
 - Permettre aux visiteurs de prendre contact facilement via un formulaire sécurisé
 - Offrir une navigation simple et un design responsive adapté à tous les appareils
 - Travailler sur la sécurité des formulaires selon les recommandations OWASP
+
+
+---
 
 ## Public cible
 
@@ -30,6 +35,8 @@
 - **Traitement back-end** : Simulation de l'envoi avec message de confirmation
 - **Sécurisation** : Implémentation des bonnes pratiques OWASP
 
+--- 
+
 ## Technologies utilisées
 
 Le projet a été développé sans CMS, intégralement codé depuis zéro avec les technologies suivantes :
@@ -40,12 +47,22 @@ Le projet a été développé sans CMS, intégralement codé depuis zéro avec l
 | CSS3     | -       | GitHub |
 | JavaScript | -     | -      |
 
+---
+
 ## Charte graphique
 
 - Palette de couleurs : tons bois naturel (beige, brun)
 - Typographie sobre et lisible
 - Design épuré mettant en valeur le savoir-faire artisanal
 - Optimisation pour l'accessibilité (contrastes, tailles de police)
+
+## Maquette (Figma) par [**@Antonin**](https://github.com/HeyAnto)
+
+<p align="center">
+  <img src="./assets/img/Figma - Maquette/Maquette Figma_ L&apos;Atelier du Bois.png"  alt="Logo">
+</p>
+
+---
 
 ## Structure du projet
 
